@@ -10,4 +10,13 @@ public class Face {
     public Rect faceRect;
     public int faceConfidence;
     public int faceAngle;
+
+    @Override
+    public String toString() {
+        return "Face{" +
+                "faceRect=" + faceRect +
+                ", faceConfidence=" + faceConfidence +
+                ", faceAngle=" + faceAngle +
+                '}'+"\n";
+    }
 }
